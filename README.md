@@ -26,7 +26,7 @@ Learning materials for Clojure
   `git clone https://github.com/oliyh/learning-clojure`
 * In Intellij, File - Open - project.clj
 * It should be recognised as a Clojure project, and Leiningen should import the libraries
-* Start the REPL - Tools > Start Clojure Console
+* Start the REPL: Tools - Start Clojure Console
 * You should see a prompt that looks like `user=>`
 * Type `(println "Hello World!")` and press enter
 * If it worked you are now ready to code with Clojure!
