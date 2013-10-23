@@ -5,6 +5,7 @@ Learning materials for Clojure
 
 ###Pre-requisites
 * A sense of adventure
+* The [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 * [Intellij](http://www.jetbrains.com/idea/free_java_ide.html)
 
 ###Install Leiningen
@@ -26,6 +27,7 @@ Learning materials for Clojure
   `git clone https://github.com/oliyh/learning-clojure`
 * In Intellij, File - Open - project.clj
 * It should be recognised as a Clojure project, and Leiningen should import the libraries
+* You may need to configure the SDK for the project: Open Module settings (Ctrl + Alt + Shift + S) - SDKs - Add an installed JDK
 * Start the REPL: Tools - Start Clojure Console
 * You should see a prompt that looks like `user=>`
 * Type `(println "Hello World!")` and press enter
