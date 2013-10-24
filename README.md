@@ -34,4 +34,5 @@ Learning materials for Clojure
 * If it worked you are now ready to code with Clojure!
 
 ###Next steps
-Work your way through the [wiki](https://github.com/oliyh/learning-clojure/wiki)
+If you are attending my dojos you can stop here and we'll cover the next part together.
+Otherwise, work your way through the [wiki](https://github.com/oliyh/learning-clojure/wiki)
