@@ -32,3 +32,6 @@ Learning materials for Clojure
 * You should see a prompt that looks like `user=>`
 * Type `(println "Hello World!")` and press enter
 * If it worked you are now ready to code with Clojure!
+
+###Next steps
+Work your way through the [wiki](https://github.com/oliyh/learning-clojure/wiki)
