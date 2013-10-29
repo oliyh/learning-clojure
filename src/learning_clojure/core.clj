@@ -6,5 +6,8 @@
   [x]
   (println x "Hello, World!"))
 
+(defn hello []
+  (println "Hello, World!"))
+
 (defn load-recipes-json []
   (parse-string (slurp "resources/recipes.json") true))
