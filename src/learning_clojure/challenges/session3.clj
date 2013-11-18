@@ -9,10 +9,10 @@
       (mapcat (fn [x] (range x limit x)) numbers))))
 
 (defn fib
-  ([] (fib [1 2]))
-  ([s] (let [next (apply + (take-last 2 s))
-             nnext (+ (last s) next)]
-         (concat s (lazy-seq (fib [next nnext]))))))
+  ([] (fib [0 1]))
+  ([s]
+  (let [[n0 n1] (take-last 2 s)]
+    (lazy-seq (cons n0 (fib [n1 (+ n0 n1)]))))))
 
 (defn even-fib-below [limit]
   (filter even? (take-while #(< % limit) (fib))))
