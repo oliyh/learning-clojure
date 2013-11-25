@@ -12,6 +12,29 @@
   ([] (fib 0 1))
   ([i j] (lazy-seq (cons i (fib j (+ i j))))))
 
+
+;; fib another way
+
+(declare fib2*)
+
+(defn fib2
+  ([n]
+    (println "Called with" n)
+    (condp = n
+      0 1
+      1 1
+      (+ (fib2* (- n 2)) (fib2* (dec n))))
+    ))
+
+(def fib2* (memoize fib2))
+
+(defn fib-seq []
+  (map fib2* (range)))
+
+;; memoize caches results so that it will return in a reasonable time, performance is very bad!
+
+
+
 (defn even-fib-below [limit]
   (filter even? (take-while #(< % limit) (fib))))
 
