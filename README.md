@@ -6,7 +6,7 @@ Learning materials for Clojure
 ###Pre-requisites
 * A sense of adventure
 * The [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-* [Intellij](http://www.jetbrains.com/idea/free_java_ide.html)
+* [Intellij 12](http://confluence.jetbrains.com/display/IntelliJIDEA/Previous+IntelliJ+IDEA+Releases)
 
 ###Install Leiningen
 [Leiningen](http://leiningen.org/) is *the* build tool for Clojure. 
